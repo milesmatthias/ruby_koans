@@ -77,6 +77,7 @@ end
 
 task :default => :walk_the_path
 
+desc "Walk the path to enlightenment - the default task"
 task :walk_the_path do
   cd PROB_DIR
   ruby 'path_to_enlightenment.rb'
